@@ -59,3 +59,61 @@ input[type=submit]:hover {
   flex:40%;
   padding: 15px;
 }
+@media screen and (max-width: 480px) {
+  /* About */
+  .aboutImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 500px;
+    border-radius: 30px;
+  }
+  
+  .aboutSection{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    display: block;
+  }
+  
+  .inlineAbout{
+    block-size:30%;
+    padding: 5px;
+  }
+
+  /* Contact ME */
+  .containerContactMe {
+    margin-left: 5%;
+    margin-right: 0%;
+  }
+
+  .column {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+    padding: 5px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
