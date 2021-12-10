@@ -1,0 +1,104 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.content{
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+body {
+    margin:0;
+}
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li.navbarList {
+  float: left;
+}
+
+li.navbarList a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navbarList a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #007bff;
+}
+
+.profileImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 125px;
+  height: 275px;
+  border-radius: 30px;
+}
+
+.profileDetails{
+  margin-left: auto;
+  margin-right: auto;
+  width:29%;
+  display: flex;
+}
+
+.inlineProfile{
+  flex: 50%;
+  padding: 5px;
+}
+
+.education{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#educationDetails{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#educationDetails td, #educationDetails th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#educationDetails tr:nth-child(even){background-color: #f2f2f2;}
+
+#educationDetails tr:hover {background-color: #ddd;}
+
+#educationDetails th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #007bff;
+  color: white;
+}
+
+.experience{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}

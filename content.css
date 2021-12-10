@@ -1,0 +1,61 @@
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #005fc4;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.containerContactMe {
+  margin-left: 40%;
+  margin-right: 20%;
+}
+
+.aboutImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 600px;
+  border-radius: 30px;
+}
+
+.aboutSection{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flex;
+}
+
+.inlineAbout{
+  flex:40%;
+  padding: 15px;
+}
